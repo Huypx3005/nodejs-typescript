@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express, { NextFunction, Request, Response } from 'express'
 import usersRouter from './routes/users.route'
 import databaseService from './services/database.services'
